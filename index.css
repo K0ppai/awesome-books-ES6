@@ -7,12 +7,20 @@
   text-decoration: none !important;
 }
 
+body {
+  background-color: #fffae0 !important;
+}
+
+input {
+  background-color: #fffae4;
+}
+
 .nav-links {
   cursor: pointer;
 }
 
 .nav-links:hover {
-  color: #ffc107 !important;
+  color: rgb(255, 193, 7) !important;
 }
 
 #book-list.active,
