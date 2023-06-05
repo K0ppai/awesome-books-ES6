@@ -12,7 +12,7 @@
   </head>
 <body>
   <header>
-    <nav class="container-fluid position-fixed top-0 p-0 bg-white">
+    <nav class="container-fluid position-fixed top-0 p-0">
       <div class="row justify-content-between border align-items-center my-2 mx-3 border-3 rounded-2 border-dark">
         <div class="col-3 p-1">
           <span class="p-2 m-0 fs-5 fw-bold w-25" id="span">Awesome Books</span>
@@ -27,27 +27,32 @@
       </div>
       <div></div>
     </nav>
+    <div class="container-fluid mt-5 pt-3 d-flex justify-content-end">
+      <time id="time" class="pe-3">
+        
+      </time>
+    </div>
   </header>
-  <section id="book-list" class="container-fluid mt-5 pt-3">
+  <section id="book-list" class="container-fluid mt-2 p-0">
     <h1 class="text-center fw-bolder my-4">All Awesome Books</h1>
-    <ul id="book-list-container" class="p-0 border border-3 rounded-2 border-dark">
+    <ul id="book-list-container" class="p-0 border border-3 rounded-2 border-dark mx-3">
 
     </ul>
   </section>
   <section id="contact">
-    <div class="container-fluid mt-5 pt-5 row justify-content-center">
+    <div class="container-fluid mt-4 row justify-content-center">
       <div class="col-8 d-flex flex-column align-items-center">
         <h1 class="text-center pb-5">Contact Information</h1>
         <p class="fs-5">Do you have any questions or you just want to say "Hello"?<br>You can reach out to us!</p>
         <ul class="align-self-start ms-5 ps-5">
-          <li class="ms-5">Our email: <a href="mailto:awesomebooks@gmail.com">awesomebooks@gmail.com</a></li>
+          <li class="ms-5">Our email: <a href="mailto:awesomebooks@gmail.com" class="text-warning">awesomebooks@gmail.com</a></li>
           <li class="ms-5">Our phone number: 5451243345</li>
           <li class="ms-5">Our address: Books Street, Bookshopville, United States</li>
         </ul>
       </div>
     </div>
   </section>
-  <form action="submit" class="form mt-5 pt-5" id="form">
+  <form action="submit" class="form mt-4" id="form">
     <h1 class="text-center mb-5">Add a new book</h1>
     <div class="container-fluid">
       <div class="row flex-column align-items-center">
@@ -61,11 +66,11 @@
       </div>
     </div>
   </form>
-  <footer class="container-fluid position-fixed bottom-0 bg-white" id="footer">
-    <div class="border border-3 border-dark mx-2 my-1 rounded-2">
+  <footer class="container-fluid position-fixed bottom-0 p-0" id="footer">
+    <div class="border border-3 border-dark mx-3 my-1 rounded-2">
       <p class="mb-0 py-1 px-4">&copy; K0ppai and Raphael Miyoyo. All Rights Reserved.</p>
     </div>
   </footer>
-  <script src="index.js"></script>
+  <script type="module" src="index.js"></script>
 </body>
 </html>
