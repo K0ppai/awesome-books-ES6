@@ -5,7 +5,4 @@ const displayDate = () => {
   const now = DateTime.now();
   date.innerText = `${now.toLocaleString(DateTime.DATETIME_HUGE_WITH_SECONDS)}`;
 };
-const time = setInterval(() => {
-  displayDate();
-}, 1000);
-export { time as default };
+export { displayDate as default };
